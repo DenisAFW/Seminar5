@@ -76,6 +76,7 @@ from random import randint
 
 
 i = 100
+print(f'Всего {i} конфет')
 while i > 0:
     a = int(input('Игрок 1 введите количество конфет '))
     if a > 28 or a < 0:
@@ -94,8 +95,12 @@ while i > 0:
         i = i - b
         print(f'Бот Арсений забрал {b} конфет')
         print(f'Осталось {i} конфет')
+    elif i >31 and i < 56:
+        randint(1,25)
+    elif i <=30 and i >= 29:
+        b = randint(1,2)
     elif i < 28:
-        b = randint(1,i)
+        b = i
         print(f'Бот Арсений забрал {b} конфет')
         i = i - b
         print(f'Осталось {i} конфет')
