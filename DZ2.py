@@ -96,7 +96,7 @@ while i > 0:
         print(f'Бот Арсений забрал {b} конфет')
         print(f'Осталось {i} конфет')
     elif i >31 and i < 56:
-        randint(1,25)
+        randint(1,i-28)
     elif i <=30 and i >= 29:
         b = randint(1,2)
     elif i < 28:
